@@ -30,7 +30,7 @@ class Box {
 
 /* scan from left-top corner to right-bottom corner in the box */
 function forward(box, d, v, vb, a, b) {
-    /* from -d to d, it is because the precedence is k beyond -k */
+    /* from d to -d */
     for(let k = d; k >= -d; k-=2){
         
         /* 
